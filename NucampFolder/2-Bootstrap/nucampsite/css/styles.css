@@ -15,3 +15,20 @@ h2 {
 header h2 {
   color: #cec8ff;
 }
+
+footer {
+  background-image: linear-gradient(#cec8ff, white);
+  padding: 20px 0;
+}
+
+.jumbotron {
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+  color: white;
+}
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
+}
