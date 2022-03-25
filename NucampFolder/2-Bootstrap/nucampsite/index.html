@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="jumbotron">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -28,7 +28,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 col-md-3">
+        <div class="col-sm-4 order-sm-last col-md-3">
           <h2>Discover & Review</h2>
         </div>
         <div class="col">
@@ -54,8 +54,7 @@
       </div>
 
       <div class="row">
-        <div class="col-sm-4 col-md-3">
-          // col sm 4 has this column take up 4 out of twelve on small screens
+        <div class="col-sm-4 order-sm-last col-md-3">
           <h2>Our Community Partners</h2>
         </div>
         <div class="col">
@@ -69,26 +68,30 @@
     </div>
 
     <footer>
-      <div>
-        <h5>Links</h5>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Sites</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h5>Social</h5>
-        <a href="http://instagram.com/">Instagram</a>
-        <a href="http://facebook.com/">Facebook</a>
-        <a href="http://twitter.com/">Twitter</a>
-        <a href="http://youtube.com/">YouTube</a>
-      </div>
-      <div>
-        Tel: 1-206-555-1234
-        <br />
-        Email: campsites@nucamp.co
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-sm-2 offset-1">
+            <h5>Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Sites</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-5">
+            <h5>Social</h5>
+            <a href="http://instagram.com/">Instagram</a>
+            <a href="http://facebook.com/">Facebook</a>
+            <a href="http://twitter.com/">Twitter</a>
+            <a href="http://youtube.com/">YouTube</a>
+          </div>
+          <div class="col-sm-4">
+            Tel: 1-206-555-1234
+            <br />
+            Email: campsites@nucamp.co
+          </div>
+        </div>
       </div>
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
