@@ -1,3 +1,9 @@
 {
-  "editor.formatOnPaste": true
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "on",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
