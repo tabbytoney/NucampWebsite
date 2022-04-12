@@ -4,6 +4,6 @@
   "editor.formatOnSave": true,
   "editor.wordWrap": "on",
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
