@@ -1,4 +1,5 @@
 // this file name starts with lower case. We do this for files that dont export a React component
+// This slice file is a Redux thing
 
 import { CAMPSITES } from '../../app/shared/CAMPSITES';
 
