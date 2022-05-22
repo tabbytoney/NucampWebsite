@@ -2,7 +2,7 @@ import { Button, Label, Col, FormGroup } from 'reactstrap';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { validateContactForm } from '../utils/validateContactForm';
 
-const ContactPage = () => {
+const ContactForm = () => {
   const handleSubmit = (values, { resetForm }) => {
     console.log('form values:', values);
     console.log('in JSON format:', JSON.stringify(values));
@@ -121,4 +121,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default ContactForm;
