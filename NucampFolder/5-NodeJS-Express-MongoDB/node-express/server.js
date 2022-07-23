@@ -1,6 +1,8 @@
 const express = require('express');
 const morgan = require('morgan');
 const campsiteRouter = require('./routes/campsiteRouter');
+const partnerRouter = require('./routes/partnerRouter');
+const promotionsRouter = require('./routes/promotionsRouter');
 
 const hostname = 'localhost';
 const port = 3000;
@@ -10,6 +12,8 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 app.use('/campsites', campsiteRouter);
+app.use('/promotions', promotionsRouter);
+app.use('/partners', partnerRouter);
 
 app.use(express.static(__dirname + '/public'));
 
