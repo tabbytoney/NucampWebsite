@@ -10,6 +10,7 @@ const campsiteRouter = require('./routes/campsiteRouter');
 const promotionRouter = require('./routes/promotionRouter');
 const partnerRouter = require('./routes/partnerRouter');
 const passport = require('passport');
+const authenticate = require('./authenticate');
 
 const config = require('./config');
 

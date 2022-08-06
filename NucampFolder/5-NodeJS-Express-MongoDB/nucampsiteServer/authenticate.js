@@ -34,4 +34,15 @@ exports.jwtPassport = passport.use(
   })
 );
 
+// jwt uses the above, it's not jwtPassport like I'd think
 exports.verifyUser = passport.authenticate('jwt', { session: false });
+
+exports.verifyAdmin = (req, res, next) => {
+  if (req.user.admin === true) {
+    return next();
+  } else {
+    const err = new Error('You are not authorized to perform this operation!');
+    res.statusCode = 403;
+    return next(err);
+  }
+};
