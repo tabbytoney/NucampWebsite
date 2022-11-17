@@ -1,5 +1,5 @@
-# NucampFolder
-Projects completed in class as part of the fullstack bootcamp with Nucamp 
+# NucampWebsite
+Camping website created as part of Nucamp coursework
 
 Project includes: 
 
